@@ -1,0 +1,27 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1%;
+}
+
+.form-input-textarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1%;
+}
+
+label {
+  width: 30px;
+}
+
+input,
+textarea {
+  width: 60%;
+}
