@@ -25,11 +25,11 @@
       </div>
       <div class="form-input">
         <legend>Email Address :</legend>
-        <label for="fname"></label>
+        <label for="email"></label>
         <input
           type="text"
-          id="fullName"
-          name="fullName"
+          id="email"
+          name="email"
           placeholder="Enter your email"
           required
         />
@@ -38,18 +38,18 @@
       <div class="form-input-textarea">
         <legend>About you :</legend>
         <label for="about"></label>
-        <textarea id="about" rows="5" cols="50" placeholder="Write about yourself"></textarea>
+        <textarea id="about" name="about" rows="5" cols="50" placeholder="Write about yourself"></textarea>
       </div>
 
       <div class="form-input">
         <legend>Photo : </legend>
         <label for="picture"></label>
-        <input type="file" id="picture" accept=".png, .jpg, .jpeg"></input>
+        <input type="file" id="picture" name="picture" accept=".png, .jpg, .jpeg"></input>
       </div>
 
       <!--Use this button to submit the form-->
       <div>
-        <button>Submit</button>
+        <button type="submit" id="button" name="button">Submit</button>
       </div>
       
     </form>
