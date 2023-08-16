@@ -36,19 +36,19 @@
     <fieldset>
         <legend>About</legend>
         <label for="about"></label>
-        <textarea id="about" rows="3" cols="50" placeholder="Write about yourself" style="resize: none;"></textarea>
+        <textarea id="about" name="about" rows="3" cols="50" placeholder="Write about yourself" style="resize: none;"></textarea>
     </fieldset>
 
     <fieldset>
         <legend>File</legend>
         <label for="picture"></label>
-        <input type="file" id="picture" accept=".png, .jpg, .jpeg"></input>
+        <input type="file" id="picture" name="picture" accept=".png, .jpg, .jpeg"></input>
     </fieldset>
     
     <br>
     
     <!--Use this button to submit the form-->
-    <button>Submit</button>
+    <button id="button" name="button">Submit</button>
     </form>
   </body>
 </html>
