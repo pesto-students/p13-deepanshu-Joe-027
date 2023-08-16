@@ -1,0 +1,11 @@
+body {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  input, textarea {
+      width: 99%;
+  }
+  button {
+      width: 100%;
+      align-items: center;
+  }
