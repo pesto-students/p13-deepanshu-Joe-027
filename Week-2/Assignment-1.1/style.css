@@ -1,20 +1,24 @@
 body {
-  width: 50%;
-  margin: 0 auto;
+  width: 70%;
+  font-family: Arial;
+  color: #333;
 }
 
 .form-input {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 1%;
+  padding-left: 0px;
+  padding-bottom: 6px;
 }
 
 .form-input-textarea {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 1%;
+
+  font-family: Arial;
+  color: #333;
 }
 
 label {
@@ -24,4 +28,13 @@ label {
 input,
 textarea {
   width: 60%;
+}
+
+textarea::placeholder {
+  font-family: Arial;
+  color: #333;
+}
+input::placeholder {
+  font-family: Arial;
+  color: #333;
 }

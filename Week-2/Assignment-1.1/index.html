@@ -14,7 +14,7 @@
     <form action="#" method="post" enctype="multipart/form-data">
       <div class="form-input">
         <legend>Full Name :</legend>
-        <label for="fname"></label>
+        <label for="fullName"></label>
         <input
           type="text"
           id="fullName"
@@ -30,7 +30,7 @@
           type="text"
           id="fullName"
           name="fullName"
-          placeholder="Enter your name"
+          placeholder="Enter your email"
           required
         />
       </div>
@@ -38,7 +38,7 @@
       <div class="form-input-textarea">
         <legend>About you :</legend>
         <label for="about"></label>
-        <textarea id="about" rows="5" placeholder="Write about yourself"></textarea>
+        <textarea id="about" rows="5" cols="50" placeholder="Write about yourself"></textarea>
       </div>
 
       <div class="form-input">
@@ -48,7 +48,10 @@
       </div>
 
       <!--Use this button to submit the form-->
-      <button>Submit</button>
+      <div>
+        <button>Submit</button>
+      </div>
+      
     </form>
   </body>
 </html>
