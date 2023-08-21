@@ -1,6 +1,6 @@
 * {
   --green: green;
-  --lightgreen: rgb(239, 252, 239);
+  --row-bg-color: rgb(239, 252, 239);
 }
 
 table {
@@ -27,5 +27,5 @@ table th {
 }
 
 tr:nth-child(even) {
-  background-color: var(--lightgreen);
+  background-color: var(--row-bg-color);
 }
