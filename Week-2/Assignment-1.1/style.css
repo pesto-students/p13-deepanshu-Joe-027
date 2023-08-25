@@ -1,0 +1,39 @@
+body {
+  width: 70%;
+  font-family: Arial;
+  color: #333;
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  justify-items: left;
+  padding-left: 0px;
+  padding-bottom: 6px;
+}
+
+.form-input-textarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: Arial;
+  color: #333;
+}
+
+label {
+  width: 30px;
+}
+
+input,
+textarea {
+  width: 60%;
+}
+
+textarea::placeholder {
+  font-family: Arial;
+  color: #333;
+}
+input::placeholder {
+  font-family: Arial;
+  color: #333;
+}
