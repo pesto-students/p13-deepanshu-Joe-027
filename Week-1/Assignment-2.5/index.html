@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>UoA</title>
+  </head>
+  <body>
+    <!--Add he logo of the website here-->
+    <img src="../Assignment-2.5/UoA.png" alt="" />
+    <form action="#" method="post" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Full Name</legend>
+        <label for="fname"></label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+    </fieldset>
+    <fieldset>
+        <legend>Email</legend>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="john@mail.com" required/>
+    </fieldset>
+
+    <fieldset>
+        <legend>About</legend>
+        <label for="about"></label>
+        <textarea id="about" name="about" rows="3" cols="50" placeholder="Write about yourself" style="resize: none;"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>File</legend>
+        <label for="picture"></label>
+        <input type="file" id="picture" name="picture" accept=".png, .jpg, .jpeg"></input>
+    </fieldset>
+    
+    <br>
+    
+    <!--Use this button to submit the form-->
+    <button id="button" name="button">Submit</button>
+    </form>
+  </body>
+</html>
