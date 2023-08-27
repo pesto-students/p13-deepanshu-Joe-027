@@ -1,0 +1,79 @@
+/* Add your styles here */
+
+/* Given CSS rules below */
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #93b5c6;
+  background-color: #ddedaa;
+  padding: 8px;
+}
+
+.logo {
+  color: #bd4f6c;
+  font-size: 18px;
+}
+
+.content {
+  margin-left: 30px;
+  display: flex;
+}
+
+.title {
+  border-bottom: 1px dashed #93b5c6;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.title h1 {
+  color: #bd4f6c;
+}
+
+.title p {
+  color: #93b5c6;
+  margin-left: 30px;
+}
+
+.summary {
+  margin-top: 30px;
+}
+
+.summary > div {
+  background-color: #ddedaa;
+  border: 2px solid #93b5c6;
+  border-radius: 5px;
+  color: #bd4f6c;
+  padding: 5px;
+  width: 210px;
+}
+
+.related-content {
+  margin-left: 100px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  width: 70%;
+}
+
+.ingredients {
+  width: 50%;
+}
+.directions {
+  width: 50%;
+}
