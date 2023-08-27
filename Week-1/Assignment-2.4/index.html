@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing Tables</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      width: 100px;
+      height: 20px;
+    }
+  </style>
+  <body>
+    <table>
+      <tr>
+        <!--Rowspan makes the cell occupy the number of columns specified-->
+        <td colspan="3">1</td>
+      </tr>
+      <tr>
+        <!--Rowspan makes the cell occupy the number of rows specified-->
+        <td rowspan="2">2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+    </table>
+    <!--OL stands for ordered list-->
+    <ol>
+      <li>Desktop</li>
+      <ul>
+        <li>Linux</li>
+        <li>Mac OS</li>
+        <li>Windows</li>
+      </ul>
+      <li>Mobile</li>
+      <!--UL stands for unordered list-->
+      <ul>
+        <li>Android</li>
+        <li>iOS</li>
+      </ul>
+    </ol>
+  </body>
+</html>
